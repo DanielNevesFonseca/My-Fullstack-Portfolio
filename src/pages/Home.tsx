@@ -34,21 +34,19 @@ export const Home = () => {
                 : "Fullstack Web Developer"}
             </span>
             <h1 className="text-5xl font-bold">
-              {translation
-                ? "Bem vindo ao meu portfólio"
-                : "Welcome to my portfolio"}
+              {translation ? "Seja Bem Vindo!" : "Welcome!"}
             </h1>
           </HeroDivider>
           <HeroDivider>
             <p className="py-4 font-thin leading-7 text-white/70">
               {translation
-                ? "Conectando pessoas por meio do código, criando experiências web cativantes e evoluindo no mundo do desenvolvimento web."
-                : "Bridging people through code, crafting captivating web experiences while leveling up in the world of web development."}
+                ? "Conectando negócios e seus desafios às soluções digitais criativas por meio de software!"
+                : "Connecting businesses and their challenges to creative digital solutions through software!"}
             </p>
             <div className="flex gap-4">
               <Link
                 to="/contact"
-                className="tracking-widest transition-all duration-300 rounded-none btn btn-primary w-fit"
+                className="tracking-widest transition-all duration-300 btn btn-primary w-fit rounded"
               >
                 {translation ? "Contato" : "Contact"}
               </Link>
@@ -56,25 +54,25 @@ export const Home = () => {
                 target="_blank"
                 href={
                   translation
-                    ? "https://drive.google.com/file/d/1GaO3vxTRBT2-ROKLYQRjXUyRdLHm3K27/view?usp=sharing"
-                    : "https://drive.google.com/file/d/1t3fzR-pV0FMBRi1BzNYaFHZdF7k5k9M2/view?usp=sharing"
+                    ? "https://drive.google.com/file/d/1JeRyUKypD7XGsSBkJjeSqa_4c7JN_zdF/view?usp=sharing"
+                    : "https://drive.google.com/file/d/1zH4lfPb0-1Fb5Hgl_rY_0T5ghMZyqiG3/view?usp=sharing"
                 }
-                className="inline-flex tracking-widest transition-all duration-300 rounded-none btn btn-outline w-fit"
+                className="inline-flex tracking-widest transition-all duration-300 rounded btn btn-outline w-fit"
               >
-                {translation ? "Currículo" : "Resumee"}
+                {translation ? "Currículo" : "Resume"}
               </a>
             </div>
           </HeroDivider>
         </div>
         <div className="relative mx-auto">
-          <div className="overflow-hidden rounded-full">
+          <div className="overflow-hidden rounded-full ">
             <img
-              className="transition-all duration-1000 hover:scale-110 w-96"
-              src="https://i.ibb.co/GpMbgKz/IMG-0165.jpg"
+              className="transition-all duration-1000 hover:scale-110 w-30"
+              src="https://avatars.githubusercontent.com/u/107806928?v=4"
             />
           </div>
-          <span className="absolute bottom-0 p-2 text-xl font-bold transition-all duration-1000 shadow-lg font-marlinge bg-primary px-14 sm:p-4 text-primary-content sm:text-3xl">
-            Marcelino
+          <span className="rounded absolute bottom-0 p-2 text-xl font-bold transition-all duration-1000 shadow-lg font-marlinge bg-primary px-14 sm:p-4 text-primary-content sm:text-3xl">
+            Daniel
           </span>
         </div>
       </main>
@@ -86,10 +84,13 @@ export const Home = () => {
           {translation ? (
             <span className="py-4 font-thin leading-7 tracking-wide md:col-span-5 md:py-0 text-white/70">
               Olá! Me chamo{" "}
-              <strong className="font-bold">Marcelino Gutierrez</strong>, possuo
-              conhecimentos em{" "}
-              <strong className="font-bold"> JavaScript, Java, Python</strong> e
-              tecnologias avançadas para o front-end como
+              <strong className="font-bold">Daniel Neves Fonseca</strong>,
+              possuo conhecimentos em{" "}
+              <strong className="font-bold">
+                {" "}
+                JavaScript, TypeScript, Python
+              </strong>{" "}
+              e tecnologias avançadas para o front-end como
               <strong className="font-bold">
                 {" "}
                 Angular, React.js e Tailwind CSS.
@@ -97,39 +98,40 @@ export const Home = () => {
               Também estou familiarizado com frameworks de back-end como o
               <strong className="font-bold">
                 {" "}
-                Node.js, Django, Spring Boot{" "}
+                NodeJS, Django, NestJS, ExpressJS, TypeORM, Prisma,{" "}
               </strong>{" "}
               e a gestão de bancos de dados utilizando{" "}
-              <strong className="font-bold"> PostgreSQL.</strong> Minha
-              experiência inclui projetos individuais e em equipe, demonstrando
-              minha capacidade de criar soluções inovadoras. Além disso, confio
-              na minha aprendizagem autodirigida, que me mantém em constante
-              aprimoramento. Vamos nos conectar e discutir como podemos
-              contribuir para o seu time.
+              <strong className="font-bold"> PostgreSQL</strong> e um pouco de{" "}
+              <strong className="font-bold"> MongoDB.</strong> Já trabalhei com
+              projetos - individuais e em equipe - web com a criação de
+              protótipos de interface UI Design, desenvolvimento front end e
+              desenvolvimento back end.
             </span>
           ) : (
             <span className="py-4 font-thin leading-7 tracking-wide md:col-span-5 md:py-0 text-white/70">
-              Hello! I am{" "}
-              <strong className="font-bold">Marcelino Gutierrez</strong>, a web
-              developer based in Brazil. I'm skilled in
-              <strong className="font-bold"> JavaScript, Java, Python </strong>
-              and the latest front-end tech like
+              Hello! My name is{" "}
+              <strong className="font-bold">Daniel Neves Fonseca</strong>, and I
+              have expertise in{" "}
               <strong className="font-bold">
                 {" "}
-                Angular, React.js and Tailwind CSS.
+                JavaScript, TypeScript, Python
               </strong>{" "}
-              I'm also familiar with back-end frameworks like
+              and advanced front-end technologies such as
               <strong className="font-bold">
                 {" "}
-                Node.js, Django, Spring Boot{" "}
+                Angular, React.js, and Tailwind CSS.
               </strong>{" "}
-              and database management using
-              <strong className="font-bold"> PostgreSQL.</strong> My experience
-              includes solo and team projects, showcasing my ability to create
-              innovative coding solutions. Plus, I'm confident in my
-              self-directed learning, which keeps me growing and improving
-              constantly. Let's connect and discuss how I can bring my skills to
-              benefit your team.
+              I am also familiar with back-end frameworks like
+              <strong className="font-bold">
+                {" "}
+                NodeJS, Django, NestJS, ExpressJS, TypeORM, Prisma,{" "}
+              </strong>{" "}
+              and database management using{" "}
+              <strong className="font-bold"> PostgreSQL</strong> and a bit of{" "}
+              <strong className="font-bold"> MongoDB.</strong> I have experience
+              working on both individual and team web projects, involving UI
+              Design interface prototyping, front-end development, and back-end
+              development.
             </span>
           )}
         </>
