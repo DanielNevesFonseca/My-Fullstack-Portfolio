@@ -8,7 +8,8 @@ export default {
     },
   },
   daisyui: {
-    themes: ["luxury"],
+    themes: ["halloween"],
+
   },
   plugins: [require("daisyui")],
 };

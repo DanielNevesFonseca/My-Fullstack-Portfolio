@@ -25,7 +25,7 @@ export const ProjectCard = ({
         src={imgSource}
         alt={title}
       />
-      <div className="w-full p-4 outline-none">
+      <div className="w-full p-4 outline-none bg-zinc-900">
         <h3 className="py-2 text-2xl font-semibold tracking-widest uppercase xl:text-3xl font-marlinge text-primary">
           {title}
         </h3>

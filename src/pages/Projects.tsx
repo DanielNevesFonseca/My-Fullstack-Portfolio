@@ -2,7 +2,6 @@ import { useState, useEffect, useContext } from "react";
 import { PageTitle } from "../components/PageTitle";
 import { ProjectCard } from "../components/ProjectCard";
 import { MainContext } from "../provider/MainContext";
-import WebContactsIMG from "../assets/images/webcontactsimg.jpg";
 
 export const Projects = () => {
   const { translation } = useContext(MainContext);
