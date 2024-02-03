@@ -67,13 +67,10 @@ export const Home = () => {
         <div className="relative mx-auto">
           <div className="overflow-hidden rounded-full ">
             <img
-              className="transition-all duration-1000 hover:scale-110 w-30"
+              className="transition-all duration-1000 hover:scale-75 w-50 rounded-full"
               src="https://avatars.githubusercontent.com/u/107806928?v=4"
             />
           </div>
-          <span className="rounded absolute bottom-0 p-2 text-xl font-bold transition-all duration-1000 shadow-lg font-marlinge bg-primary px-14 sm:p-4 text-primary-content sm:text-3xl">
-            Daniel
-          </span>
         </div>
       </main>
       <section className="grid grid-cols-1 col-span-2 gap-3 md:grid-cols-7 md:gap-10">
