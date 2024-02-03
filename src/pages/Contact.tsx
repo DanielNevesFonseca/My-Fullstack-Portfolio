@@ -34,7 +34,7 @@ export function Contact() {
         ></Lottie>
         <h3 className="absolute text-lg tracking-widest text-center uppercase translate-x-1/2 select-none  text-primary-content bottom-10 right-1/2">
           {translation
-            ? "Entre em contato! Vamos expandir o seu negócio juntos."
+            ? "Nos vemos em breve! Vamos impulsionar seu negócios juntos."
             : "Get in touch! Let's expand your business together."}
         </h3>
       </div>
@@ -42,13 +42,13 @@ export function Contact() {
       <div className="relative flex justify-center w-5/6 h-screen m-auto">
         <ReturnButton />
         <ul className="absolute flex gap-4 translate-x-1/2 bottom-20 md:bottom-10 right-1/2">
-          <FooterIcon link="https://wa.me/5541991012722">
+          <FooterIcon link="https://wa.link/pfqv6s">
             <SiWhatsapp className="text-2xl" />
           </FooterIcon>
-          <FooterIcon link="https://www.linkedin.com/in/guchierrez/">
+          <FooterIcon link="https://www.linkedin.com/in/danielnevesfonseca/">
             <SiLinkedin className="text-2xl" />
           </FooterIcon>
-          <FooterIcon link="https://github.com/guchierrez">
+          <FooterIcon link="https://github.com/DanielNevesFonseca">
             <SiGithub className="text-2xl" />
           </FooterIcon>
         </ul>

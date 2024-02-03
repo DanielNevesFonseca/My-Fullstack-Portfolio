@@ -41,15 +41,15 @@ export const ContextProvider = ({ children }: IMainContextProps) => {
 
   const sendEmail = async (formData: TContactFormValues) => {
     try {
-      emailjs.init("sAZB8VbdMaitSOQM-");
+      emailjs.init("BDHk6JZ3_PxfonCVD");
       const params = {
         from_name: formData.name,
         email_id: formData.email,
         message: formData.message,
       };
       const res = await emailjs.send(
-        "service_917op3r",
-        "template_o80cp16",
+        "service_82rvxzf",
+        "template_faj9lbk",
         params
       );
       if (res.status === 200) {

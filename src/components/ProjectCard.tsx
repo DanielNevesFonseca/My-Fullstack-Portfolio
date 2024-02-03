@@ -54,14 +54,14 @@ export const ProjectCard = ({
         </Accordion>
         <div className="flex gap-5 my-4">
           <a
-            className="tracking-widest rounded-none btn btn-primary"
+            className="tracking-widest rounded btn btn-primary"
             target="_blank"
             href={repo}
           >
             {translation ? "Ver código" : "See code"}
           </a>
           <a
-            className={`tracking-widest rounded-none btn btn-outline ${liveDemo ? "" : "invisible"}`}
+            className={`tracking-widest rounded btn btn-outline ${liveDemo ? "" : "invisible"}`}
             target="_blank"
             href={liveDemo}
           >

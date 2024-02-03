@@ -55,7 +55,7 @@ export const ContactForm = () => {
         inputName="message"
         inputPlaceholder={translation ? "Mensagem" : "Message"}
       />
-      <button className="btn btn-primary w-1/2 mx-auto rounded-none my-4 tracking-widest">
+      <button className="btn btn-primary w-1/2 mx-auto rounded my-4 tracking-widest">
         {translation ? "Enviar" : "Send"}
       </button>
     </form>

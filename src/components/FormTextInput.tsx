@@ -31,7 +31,7 @@ export const FormTextInput = ({
         {...register(inputName)}
       />
       {errors[inputName] && (
-        <p className="text-red-500 text-xs font-roboto">
+        <p className="text-red-500 text-xs font-poppins">
           {errors[inputName]?.message?.toString()}
         </p>
       )}
