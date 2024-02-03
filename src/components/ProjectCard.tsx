@@ -16,12 +16,12 @@ export const ProjectCard = ({
   const { translation } = useContext(MainContext);
   return (
     <div
-      className={`md:flex ${
+      className={`md:flex hover:scale-105 rounded transition-all transition-1000  ${
         reverse ? "md:flex-row-reverse ml-auto" : "md:flex-row"
       }  grid bg-[#1c1c1c] my-auto grid-cols-1 w-full xl:w-3/4`}
     >
       <img
-        className="object-cover transition-all duration-300 md:max-w-xs lg:max-w-md"
+        className="object-contain transition-all duration-300 md:max-w-xs lg:max-w-md"
         src={imgSource}
         alt={title}
       />
@@ -61,7 +61,7 @@ export const ProjectCard = ({
             {translation ? "Ver código" : "See code"}
           </a>
           <a
-            className="tracking-widest rounded-none btn btn-outline"
+            className={`tracking-widest rounded-none btn btn-outline ${liveDemo ? "" : "invisible"}`}
             target="_blank"
             href={liveDemo}
           >

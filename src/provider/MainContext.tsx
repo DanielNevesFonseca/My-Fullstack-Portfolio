@@ -25,7 +25,6 @@ import {
   SiNodedotjs,
   SiNestjs,
   SiJest,
-  SiZdf,
 } from "react-icons/si";
 import { TbBrandVscode } from "react-icons/tb";
 
