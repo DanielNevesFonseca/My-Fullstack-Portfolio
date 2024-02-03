@@ -10,16 +10,24 @@ import {
   BiLogoCss3,
   BiLogoDjango,
   BiLogoHtml5,
-  BiLogoJava,
   BiLogoJavascript,
+  BiLogoMongodb,
   BiLogoPostgresql,
   BiLogoPython,
   BiLogoReact,
-  BiLogoSpringBoot,
+  BiLogoSass,
   BiLogoTailwindCss,
   BiLogoTypescript,
 } from "react-icons/bi";
-import { SiExpress, SiNodedotjs } from "react-icons/si";
+import { SiFigma, SiPrisma, SiSwagger } from "react-icons/si";
+import {
+  SiExpress,
+  SiNodedotjs,
+  SiNestjs,
+  SiJest,
+  SiZdf,
+} from "react-icons/si";
+import { TbBrandVscode } from "react-icons/tb";
 
 export const MainContext = createContext({} as IMainContext);
 
@@ -64,18 +72,13 @@ export const ContextProvider = ({ children }: IMainContextProps) => {
       name: "CSS",
       Icon: BiLogoCss3,
     },
-
+    {
+      name: "Sass",
+      Icon: BiLogoSass,
+    },
     {
       name: "Tailwind CSS",
       Icon: BiLogoTailwindCss,
-    },
-    {
-      name: "Java",
-      Icon: BiLogoJava,
-    },
-    {
-      name: "Spring Boot",
-      Icon: BiLogoSpringBoot,
     },
     {
       name: "Python",
@@ -84,6 +87,10 @@ export const ContextProvider = ({ children }: IMainContextProps) => {
     {
       name: "Django",
       Icon: BiLogoDjango,
+    },
+    {
+      name: "NestJS",
+      Icon: SiNestjs,
     },
     {
       name: "JavaScript",
@@ -112,6 +119,30 @@ export const ContextProvider = ({ children }: IMainContextProps) => {
     {
       name: "PostgreSQL",
       Icon: BiLogoPostgresql,
+    },
+    {
+      name: "MongoDB",
+      Icon: BiLogoMongodb,
+    },
+    {
+      name: "PrismaORM",
+      Icon: SiPrisma,
+    },
+    {
+      name: "VS Code",
+      Icon: TbBrandVscode,
+    },
+    {
+      name: "Swagger",
+      Icon: SiSwagger,
+    },
+    {
+      name: "Jest",
+      Icon: SiJest,
+    },
+    {
+      name: "Figma",
+      Icon: SiFigma,
     },
   ];
 

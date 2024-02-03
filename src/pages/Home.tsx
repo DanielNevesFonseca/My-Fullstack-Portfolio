@@ -93,7 +93,7 @@ export const Home = () => {
               e tecnologias avançadas para o front-end como
               <strong className="font-bold">
                 {" "}
-                Angular, React.js e Tailwind CSS.
+                Angular, React.js.
               </strong>{" "}
               Também estou familiarizado com frameworks de back-end como o
               <strong className="font-bold">
@@ -119,7 +119,7 @@ export const Home = () => {
               and advanced front-end technologies such as
               <strong className="font-bold">
                 {" "}
-                Angular, React.js, and Tailwind CSS.
+                Angular e React.js.
               </strong>{" "}
               I am also familiar with back-end frameworks like
               <strong className="font-bold">
