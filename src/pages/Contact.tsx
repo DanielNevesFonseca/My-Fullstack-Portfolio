@@ -25,7 +25,7 @@ export function Contact() {
     <div
       className={`${
         loading ? "opacity-0 select-none " : "transition-all duration-300"
-      } min-h-screen grid md:grid-cols-2 grid-cols-1 bg-[#1c1c1c] rounded-sm w-full relative`}
+      } min-h-screen min-w-screen grid md:grid-cols-2 grid-cols-1 bg-[#1c1c1c] rounded-sm relative  important`}
     >
       <div className="relative flex flex-col h-screen bg-primary">
         <Lottie

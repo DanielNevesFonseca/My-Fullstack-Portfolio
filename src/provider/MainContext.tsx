@@ -19,7 +19,7 @@ import {
   BiLogoTailwindCss,
   BiLogoTypescript,
 } from "react-icons/bi";
-import { SiFigma, SiPrisma, SiSwagger } from "react-icons/si";
+import { SiBootstrap, SiDocker, SiFigma, SiNextdotjs, SiPrisma, SiSwagger } from "react-icons/si";
 import {
   SiExpress,
   SiNodedotjs,
@@ -126,6 +126,18 @@ export const ContextProvider = ({ children }: IMainContextProps) => {
     {
       name: "PrismaORM",
       Icon: SiPrisma,
+    },
+    {
+      name: "Docker",
+      Icon: SiDocker,
+    },
+    {
+      name: "Bootstrap",
+      Icon: SiBootstrap,
+    },
+    {
+      name: "Next.js",
+      Icon: SiNextdotjs,
     },
     {
       name: "VS Code",
