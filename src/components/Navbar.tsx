@@ -17,7 +17,7 @@ export const Navbar = ({ children }: INavbarProps) => {
   } = useContext(MainContext);
 
   return (
-    <div className="drawer drawer-end">
+    <div className="">
       <input
         ref={NavbarDrawerRef}
         id="my-drawer-3"

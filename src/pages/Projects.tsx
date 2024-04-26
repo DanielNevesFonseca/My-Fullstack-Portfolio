@@ -21,7 +21,7 @@ export const Projects = () => {
         loading
           ? "opacity-0 translate-y-3 select-none "
           : "transition-all duration-1000"
-      } mx-auto w-5/6 flex flex-col gap-12 py-10`}
+      } mx-auto w-5/6 flex flex-col gap-12 py-10 mt-10`}
     >
       <PageTitle title={translation ? "Projetos" : "Projects"} />
       <main>
@@ -104,8 +104,7 @@ export const Projects = () => {
               translation
                 ? "O Dev Hub é uma aplicação web onde desenvolvedores podem registar-se e cadastrar as tecnologias que dominam e buscar por outros desenvolvedores cadastrados."
                 : "The Dev Hub is a web application where developers can register, list the technologies the master, and search for other registered developers."
-              }
-
+            }
             technologies={[
               "React.js",
               "JavaScript",
@@ -131,7 +130,58 @@ export const Projects = () => {
             liveDemo="https://kenzie-hub-rho-tawny.vercel.app"
             repo="https://github.com/DanielNevesFonseca/React__DevHub"
           />
-          
+          <ProjectCard
+            imgSource="https://i.ibb.co/bHL1wqz/Rectangle.png"
+            reverse={true}
+            title="Nu Kenzie"
+            description={
+              translation
+                ? "Com o Nu Kenzie você pode ter controle das suas finanças com uma interface amigável."
+                : "With Nu Kenzie, you can take control of your finances with a user-friendly interface."
+            }
+            technologies={["JavaScript", "HTML", "CSS", "React.js", "Figma"]}
+            features={
+              translation
+                ? [
+                    "API REST, CRUD",
+                    "Validação dinâmica de formulários",
+                    "Design responsivo em todas as resoluções",
+                  ]
+                : [
+                    "REST API, CRUD",
+                    "Dynamic form validation",
+                    "Responsive design in all resolutions",
+                  ]
+            }
+            liveDemo="https://nu-kenzie-six-lac.vercel.app/"
+            repo="https://github.com/DanielNevesFonseca/React__NuKenzie"
+          />
+          <ProjectCard
+            imgSource="https://i.ibb.co/y6qhsgb/git-Search.png"
+            reverse={false}
+            title="Git Search"
+            description={
+              translation
+                ? "Interface minimalista para procurar pelo seu dev favorito no github."
+                : "Minimalist interface to search for your favorite dev on GitHub."
+            }
+            technologies={["JavaScript", "CSS", "HTML", "Figma"]}
+            features={
+              translation
+                ? [
+                    "API REST, CRUD",
+                    "Validação dinâmica de formulários",
+                    "Design responsivo em todas as resoluções",
+                  ]
+                : [
+                    "REST API, CRUD",
+                    "Dynamic form validation",
+                    "Responsive design in all resolutions",
+                  ]
+            }
+            liveDemo="https://danielnevesfonseca.github.io/JS-CSS-HTML__GitSearch/"
+            repo="https://github.com/DanielNevesFonseca/JS-CSS-HTML__GitSearch"
+          />
         </div>
       </main>
     </div>

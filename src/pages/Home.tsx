@@ -54,8 +54,8 @@ export const Home = () => {
                 target="_blank"
                 href={
                   translation
-                    ? "https://docs.google.com/document/d/18yx8KMT-hYSBDH54grwHUJYVq-aFMVUL/edit?usp=sharing&ouid=115579138979714586407&rtpof=true&sd=true"
-                    : "https://drive.google.com/file/d/1zH4lfPb0-1Fb5Hgl_rY_0T5ghMZyqiG3/view?usp=sharing"
+                    ? "https://drive.google.com/file/d/1hueC5x4H6tFnHAyA6YBu7gb9jnqJzFMf/view?usp=sharing"
+                    : "https://drive.google.com/file/d/1hueC5x4H6tFnHAyA6YBu7gb9jnqJzFMf/view?usp=sharing"
                 }
                 className="inline-flex tracking-widest transition-all duration-300 rounded btn btn-outline w-fit"
               >
@@ -81,47 +81,43 @@ export const Home = () => {
           {translation ? (
             <>
               <span className="w-100 py-4 font-thin leading-7 tracking-wide md:col-span-5 md:py-0 text-white/90">
-                Desenvolvedor Full Stack dedicado e apaixonado, com foco
-                contínuo no aprimoramento das habilidades desde março de 2023.
-                Proficiente em uma ampla gama de tecnologias e frameworks,
-                capacitado para projetar e implementar soluções inovadoras e
-                eficientes.
+                Desde a infância, tive uma forte imersão no mundo da tecnologia,
+                graças ao meu pai, que trabalhava com manutenção de
+                computadores. Essa experiência me permitiu montar e desmontar
+                PCs, entender sobre sistemas operacionais e utilizar aplicativos
+                como o pacote Office, estabelecendo uma base sólida para minha
+                carreira como desenvolvedor.
               </span>
               <span className="w-100 py-4 font-thin leading-7 tracking-wide md:col-span-7 md:py-0 text-white/90">
-                Experiência sólida em desenvolvimento <strong>frontend</strong>,
-                utilizando ferramentas como Figma para prototipagem e{" "}
-                <strong>React</strong>, <strong>Angular</strong> e
-                <strong>Next.js</strong> para construção de interfaces
-                dinâmicas, combinado com um profundo conhecimento em{" "}
+                Em 2018, concluí um curso no SENAI, com instrutores certificados
+                da Cisco, de Instalação e Reparação de Redes de Computadores,
+                que aborda disciplinas como Cabeamento Estruturado, Arquitetura
+                de Redes, Informática Aplicada, Montagem e Manutenção de Redes
+                de Microcomputadores, Projetos de Redes, Sistemas Operacionais,
+                Serviços de Redes, Roteamento e Comutação de Dados, entre
+                outros.
+              </span>
+              <span className="py-4 font-thin leading-7 tracking-wide md:col-span-7 md:py-0 text-white/90">
+                Atualmente, como desenvolvedor Full Stack formado e possuo
+                habilidades abrangentes em uma variedade de tecnologias,
+                frameworks e sistemas operacionais, incluindo{" "}
+                <strong>React</strong>, <strong>Angular</strong>,
+                <strong>Next.js</strong>, <strong>Node.js</strong>,{" "}
                 <strong>HTML</strong>, <strong>CSS</strong>,{" "}
-                <strong>SCSS</strong> e<strong>Bootstrap</strong> para garantir
-                uma experiência de usuário aprimorada. Além disso, expertise em
-                desenvolvimento mobile com <strong>React Native</strong>,
-                proporcionando experiências nativas em dispositivos móveis.
+                <strong>SCSS</strong>, <strong>Bootstrap</strong>,{" "}
+                <strong>TypeScript</strong>, <strong>Express.js</strong>,{" "}
+                <strong>Nest.js</strong>, <strong>TypeORM</strong>,
+                <strong>Prisma</strong>, <strong>PostgreSQL</strong>,{" "}
+                <strong>MySQL</strong>, <strong>SQLite</strong>,{" "}
+                <strong>Docker</strong>, <strong>Docker Compose</strong>,{" "}
+                <strong>Git</strong>, <strong>GitHub</strong>,{" "}
+                <strong>Python</strong>, <strong>Django</strong>,
+                <strong>Django Rest Framework</strong>, <strong>PHP</strong>,{" "}
+                <strong>Windows</strong> e <strong>Linux</strong>.
               </span>
               <span className="py-4 font-thin leading-7 tracking-wide md:col-span-7 md:py-0 text-white/90">
-                No desenvolvimento <strong>backend</strong>, experiência com{" "}
-                <strong>Node.js</strong>, <strong>Nest.js</strong>,
-                <strong>Express.js</strong>, <strong>TypeScript</strong>, e
-                bancos de dados SQL (<strong>PostgreSQL</strong>,
-                <strong>MySQL</strong>, <strong>SQLite</strong>), garantindo a
-                robustez e eficiência dos sistemas.
-              </span>
-              <span className="py-4 font-thin leading-7 tracking-wide md:col-span-7 md:py-0 text-white/90">
-                Possuo experiência prática em metodologias ágeis, especialmente
-                Kanban, garantindo a entrega oportuna e eficaz de projetos.
-                Familiarizado com boas práticas de código e arquiteturas de
-                projetos tanto <strong>frontend</strong> quanto{" "}
-                <strong>backend</strong>, assegurando a escalabilidade e
-                manutenção do código. Conhecimento em <strong>Docker</strong>
-                para facilitar a implantação e distribuição de aplicativos, além
-                de habilidades sólidas em controle de versão utilizando{" "}
-                <strong>Git</strong> e<strong>GitHub</strong>.
-              </span>
-              <span className="py-4 font-thin leading-7 tracking-wide md:col-span-7 md:py-0 text-white/90">
-                Além disso, experiência em <strong>Linux</strong> (Debian) e{" "}
-                <strong>Windows</strong>, adaptável a diferentes ambientes de
-                desenvolvimento.
+                Meu objetivo agora é concluir minha faculdade e aprimorar ainda
+                mais minhas habilidades em desenvolvimento de software.
               </span>
             </>
           ) : (
